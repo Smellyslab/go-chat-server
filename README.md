@@ -7,11 +7,19 @@
 - Get this code first.
 
   ```golang
-    go get github.com/g-kutty/chat-server
+    go get github.com/Smellyslab/go-chat-server
   ```
   
-- Setup TCP server by just typing `chat-server`.
-
+  ```golang
+    import "github.com/smellyslab/go-chat-server"
+    
+    func main() {
+     
+      chatserver.New("9999") // change the 9999 to your port...
+    
+    }
+  
+  
 - Then create clients by using `telnet`.
 
   ```golang
