@@ -18,3 +18,12 @@
      telnet 127.0.0.1 8080
   ```
 - You can simply hack this code, It's avialabe in (`$GOPATH/src/github.com/g-kutty/chat-server`)  
+
+
+=====================================================================
+
+Simply turned the code into a package for go
+
+all credit to the original creator for writing this
+
+=====================================================================
