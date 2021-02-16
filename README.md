@@ -25,7 +25,7 @@
   ```golang
      telnet 127.0.0.1 8080
   ```
-- You can simply hack this code, It's avialabe in (`$GOPATH/src/github.com/g-kutty/chat-server`)  
+
 
 
 =====================================================================
