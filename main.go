@@ -1,4 +1,4 @@
-package main
+package chatserver
 
 import (
 	"bufio"
@@ -7,10 +7,10 @@ import (
 	"net"
 )
 
-func main() {
+func New(port string) {
 
 	// Setup server for all connections.
-	ln, err := net.Listen("tcp", "127.0.0.1:8080")
+	ln, err := net.Listen("tcp", "127.0.0.1:"+port)
 	if err != nil {
 		log.Fatalln(err.Error())
 	}
